@@ -20,7 +20,7 @@ license = {file = "LICENSE.txt"}
 requires = ["meson-python"]
 build-backend = "mesonpy"
 
-[project.optional-dependencies]
+[dependency-groups]
 testing = [
     "psutil",
     "pytest >= 8.0",
